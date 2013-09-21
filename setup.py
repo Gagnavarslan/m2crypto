@@ -133,7 +133,7 @@ m2crypto = Extension(name = 'M2Crypto.__m2crypto',
                      #extra_link_args = ['-Wl,-search_paths_first'], # Uncomment to build Universal Mac binaries
                      )
 
-setup(name = 'M2Crypto',
+setup(name = 'M2Crypto-patched',
       version = '0.22',
       description = 'M2Crypto: A Python crypto and SSL toolkit',
       long_description = '''\
